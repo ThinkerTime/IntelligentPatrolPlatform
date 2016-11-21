@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">智能巡检平台</string>
+    <string name="temperature">温度</string>
+    <string name="shock">振动</string>
+    <string name="infrared_spectrum">红外图谱</string>
+    <string name="frid">射频</string>
+    <string name="system_management">系统管理</string>
+    <string name="temperature_measurement">温度测量</string>
+    <string name="shock_measurement">振动测量</string>
+    <string name="centigrade">摄氏度℃</string>
+    <string name="temperature_curve">温度曲线</string>
+    <string name="shock_curve">振动曲线</string>
+    <string name="displacement">位移mm/s</string>
+
+</resources>

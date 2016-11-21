@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_page"
+    tools:context="com.techstar.intelligentpatrolplatform.activity.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_bottom_tab"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/tab_gray"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <!--温度-->
+        <LinearLayout
+            android:id="@+id/ll_tab_temperature"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_tab_temperature"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:contentDescription="@null" />
+
+            <TextView
+                android:id="@+id/text_tab_temperature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:text="@string/temperature"
+                android:textSize="@dimen/minor_11" />
+        </LinearLayout>
+
+        <!--震动-->
+        <LinearLayout
+            android:id="@+id/ll_tab_shock"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_tab_shock"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:contentDescription="@null" />
+
+            <TextView
+                android:id="@+id/text_tab_shock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:text="@string/shock"
+                android:textSize="@dimen/minor_11" />
+        </LinearLayout>
+        <!--红外图谱-->
+        <LinearLayout
+            android:id="@+id/ll_tab_infrared_spectrum"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_tab_infrared_spectrum"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:contentDescription="@null" />
+
+            <TextView
+                android:id="@+id/text_tab_infrared_spectrum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:text="@string/infrared_spectrum"
+                android:textSize="@dimen/minor_11" />
+        </LinearLayout>
+        <!--射频-->
+        <LinearLayout
+            android:id="@+id/ll_tab_frid"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_tab_frid"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:contentDescription="@null" />
+
+            <TextView
+                android:id="@+id/text_tab_frid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:text="@string/frid"
+                android:textSize="@dimen/minor_11" />
+        </LinearLayout>
+        <!--系统管理-->
+        <LinearLayout
+            android:id="@+id/ll_tab_system_management"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_tab_system_management"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:contentDescription="@null" />
+
+            <TextView
+                android:id="@+id/text_tab_system_management"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:text="@string/system_management"
+                android:textSize="@dimen/minor_11" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/ll_bottom_tab" />
+
+</RelativeLayout>

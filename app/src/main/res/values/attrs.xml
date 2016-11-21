@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomTitleBarView">
+        <attr name="ipp_title" format="string" />
+        <attr name="ipp_titleSize" format="dimension" />
+        <attr name="ipp_titleColor" format="reference|color" />
+        <attr name="ipp_rightText" format="string" />
+        <attr name="ipp_rightTextSize" format="dimension" />
+        <attr name="ipp_rightTextColor" format="reference|color" />
+        <attr name="ipp_rightImg" format="reference" />
+        <attr name="ipp_leftText" format="string" />
+        <attr name="ipp_leftTextSize" format="dimension" />
+        <attr name="ipp_leftTextColor" format="reference|color" />
+        <attr name="ipp_leftImg" format="reference" />
+    </declare-styleable>
+
+</resources>

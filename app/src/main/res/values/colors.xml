@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="bg_page">#EBE9F1</color>
+    <color name="white">#ffffff</color>
+    <color name="pressed_gray">#59d9dde3</color>
+    <color name="bg_back_img">#66000000</color>
+    <color name="main_text_black">#364048</color>
+    <color name="pressed_blue">#591fb6ff</color>
+    <color name="split_line">#d9dde3</color>
+    <color name="wathet">#1DAE99</color>
+    <color name="text_black">#555557</color>
+
+    <color name="tab_gray">#D4D2D9</color>
+
+
+</resources>
